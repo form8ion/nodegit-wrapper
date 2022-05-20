@@ -1,0 +1,6 @@
+_extends: .github
+repository:
+  name: nodegit-wrapper
+  description: wrapper to expose nodegit as a dual-mode package
+  homepage: https://npm.im/@form8ion/nodegit-wrapper
+  private: false
