@@ -1,5 +1,5 @@
-import nodegit from 'nodegit';
+const nodegit = require('nodegit');
 
 const {Branch, Remote, Repository} = nodegit;
 
-export {Branch, Remote, Repository};
+module.exports = {Branch, Remote, Repository};
