@@ -24,6 +24,7 @@ wrapper to expose nodegit as a dual-mode package
 [![MIT license][license-badge]][license-link]
 [![npm][npm-badge]][npm-link]
 [![Try @form8ion/nodegit-wrapper on RunKit][runkit-badge]][runkit-link]
+![node][node-badge]
 
 <!--consumer-badges end -->
 
@@ -99,3 +100,5 @@ $ npm test
 [runkit-link]: https://npm.runkit.com/@form8ion/nodegit-wrapper
 
 [runkit-badge]: https://badge.runkitcdn.com/@form8ion/nodegit-wrapper.svg
+
+[node-badge]: https://img.shields.io/node/v/@form8ion/nodegit-wrapper?logo=node.js
