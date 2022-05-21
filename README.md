@@ -37,7 +37,17 @@ $ npm install @form8ion/nodegit-wrapper --save-prod
 ### Example
 
 ```javascript
-import nodegitWrapper from '@form8ion/nodegit-wrapper';
+import {Branch, Remote, Repository} from '@form8ion/nodegit-wrapper';
+
+(async () => {
+  const repository = await Repository.open(process.cwd());
+  await Remote.list(repository);
+
+  await Branch.setUpstream(
+    await Branch.lookup(repository, 'main', Branch.BRANCH.LOCAL),
+    'origin/master'
+  );
+})();
 ```
 
 ## Contributing
