@@ -7,7 +7,7 @@ import {Branch, Remote, Repository} from './lib/index.js';
   await Remote.list(repository);
 
   await Branch.setUpstream(
-    await Branch.lookup(repository, 'main', Branch.BRANCH.LOCAL),
+    await Branch.lookup(repository, 'master', Branch.BRANCH.LOCAL),
     'origin/master'
   );
 })();
