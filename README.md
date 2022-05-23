@@ -24,6 +24,7 @@ wrapper to expose nodegit as a dual-mode package
 [![MIT license][license-badge]][license-link]
 [![npm][npm-badge]][npm-link]
 [![Try @form8ion/nodegit-wrapper on RunKit][runkit-badge]][runkit-link]
+![node][node-badge]
 
 <!--consumer-badges end -->
 
@@ -36,7 +37,17 @@ $ npm install @form8ion/nodegit-wrapper --save-prod
 ### Example
 
 ```javascript
-import nodegitWrapper from '@form8ion/nodegit-wrapper';
+import {Branch, Remote, Repository} from '@form8ion/nodegit-wrapper';
+
+(async () => {
+  const repository = await Repository.open(process.cwd());
+  await Remote.list(repository);
+
+  await Branch.setUpstream(
+    await Branch.lookup(repository, 'main', Branch.BRANCH.LOCAL),
+    'origin/master'
+  );
+})();
 ```
 
 ## Contributing
@@ -99,3 +110,5 @@ $ npm test
 [runkit-link]: https://npm.runkit.com/@form8ion/nodegit-wrapper
 
 [runkit-badge]: https://badge.runkitcdn.com/@form8ion/nodegit-wrapper.svg
+
+[node-badge]: https://img.shields.io/node/v/@form8ion/nodegit-wrapper?logo=node.js
