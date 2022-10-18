@@ -64,7 +64,7 @@
     "remark-toc": "8.0.1",
     "remark-usage": "10.0.1",
     "rimraf": "3.0.2",
-    "rollup": "3.2.2"
+    "rollup": "3.2.3"
   },
   "dependencies": {
     "nodegit": "^0.28.0-alpha.16"
