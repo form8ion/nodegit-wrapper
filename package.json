@@ -51,7 +51,7 @@
     "@form8ion/commitlint-config": "1.0.38",
     "@form8ion/eslint-config": "5.0.12",
     "@form8ion/remark-lint-preset": "4.0.2",
-    "@rollup/plugin-babel": "6.0.0",
+    "@rollup/plugin-babel": "6.0.2",
     "ban-sensitive-files": "1.9.18",
     "cpy-cli": "4.2.0",
     "cz-conventional-changelog": "3.3.0",
