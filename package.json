@@ -52,7 +52,7 @@
     "@babel/register": "7.18.9",
     "@form8ion/babel-preset": "1.6.99",
     "@form8ion/commitlint-config": "1.0.39",
-    "@form8ion/eslint-config": "5.0.14",
+    "@form8ion/eslint-config": "5.0.15",
     "@form8ion/remark-lint-preset": "4.0.2",
     "@rollup/plugin-babel": "6.0.2",
     "ban-sensitive-files": "1.9.18",
