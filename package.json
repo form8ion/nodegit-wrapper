@@ -53,7 +53,7 @@
     "@form8ion/babel-preset": "1.6.107",
     "@form8ion/commitlint-config": "1.0.53",
     "@form8ion/eslint-config": "6.0.0",
-    "@form8ion/remark-lint-preset": "5.0.9",
+    "@form8ion/remark-lint-preset": "6.0.0",
     "@rollup/plugin-babel": "6.0.3",
     "ban-sensitive-files": "1.9.19",
     "cpy-cli": "4.2.0",
