@@ -5,7 +5,7 @@
   "version": "0.0.0-semantically-released",
   "type": "commonjs",
   "engines": {
-    "node": "^14.15 || ^16"
+    "node": "^14.15 || ^16 || ^18"
   },
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org)",
   "repository": "form8ion/nodegit-wrapper",
@@ -46,7 +46,7 @@
     "access": "public"
   },
   "dependencies": {
-    "nodegit": "^0.28.0-alpha.16"
+    "nodegit": "^0.28.0-alpha.20"
   },
   "devDependencies": {
     "@babel/register": "7.22.15",
