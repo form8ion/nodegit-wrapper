@@ -59,7 +59,7 @@
     "cpy-cli": "4.2.0",
     "cz-conventional-changelog": "3.3.0",
     "gen-esm-wrapper": "1.1.3",
-    "husky": "9.0.1",
+    "husky": "9.0.2",
     "lockfile-lint": "4.12.1",
     "ls-engines": "0.9.1",
     "npm-run-all2": "6.1.1",
