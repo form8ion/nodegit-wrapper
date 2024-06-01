@@ -55,7 +55,7 @@
     "@form8ion/eslint-config": "7.0.9",
     "@form8ion/remark-lint-preset": "6.0.3",
     "@rollup/plugin-babel": "6.0.4",
-    "ban-sensitive-files": "1.10.2",
+    "ban-sensitive-files": "1.10.3",
     "cpy-cli": "4.2.0",
     "cz-conventional-changelog": "3.3.0",
     "gen-esm-wrapper": "1.1.3",
